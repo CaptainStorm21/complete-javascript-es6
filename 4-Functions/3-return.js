@@ -29,7 +29,7 @@ greet()();
 // return a function 2
 function greet2(x) {
   return function (name) {
-    console.log('Good night, ' + name)
+    console.log('Good night, ' + name + ' from ' + x)
   }
 }
-greet2()('Martha')
+greet2('Kyiv')('Martha')
