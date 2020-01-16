@@ -26,11 +26,13 @@ function calculateCost (hotelPrice, duration, ticketPrice, budget){
   //decide on when when you are within the budget or not
   var result;
   if(totalCost <= budget){
-   console.log( "lets' go!");
+   result = "lets' go!";
+        console.log(result);
   } else {
-   console.log( "Over the budget! Please change your plans.");
+   result = "Over the budget! Please change your plans.";
+    console.log(result);
   }
                
 }
 
-calculateCost (50, 10, 300, 200);
+calculateCost (50, 10, 300, 21200);
